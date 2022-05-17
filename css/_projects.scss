@@ -1,0 +1,87 @@
+#projects {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;;
+  background-color: #dfd7cd63
+}
+
+.project-item
+{
+  height: 50%;
+  width:100%;
+}
+
+.fade 
+{
+  -webkit-animation-name: fade-image;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade-image;
+  animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade-image
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+  
+@keyframes fade-image
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.Arabic-learner {
+  background-image: url("../images/simon-berger-twukN12EN7c-unsplash.jpg");
+}
+
+
+
+.react-native {
+ background-image: url("../images/ashwini-chaudhary-monty-gkIXFjDRyDc-unsplash.jpg");
+ background-size: 126rem 44rem;
+ background-repeat: no-repeat;
+}
+
+.rentin {
+  background-image: url("../images/paul-gilmore-d4ljEJRLcVo-unsplash.jpg");
+  background-size: 90rem 33rem;
+  background-repeat: no-repeat;
+}
+
+.speckyboy {
+  background-image: url("../images/manohar-manu-KZw_s3OMt9s-unsplash.jpg");
+  background-size: 100rem 80rem;
+  background-repeat: no-repeat;
+}
+
+.project-title {
+  padding-top: 6rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: initial;
+  & h2 {
+    font-size: 2rem;
+  }
+
+}
+
+.project-images {
+    // width: 50%;
+    margin-top: 2rem;
+    height: 16rem;
+    padding: 2rem 5rem;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.project-content {
+  padding: 2rem;
+  font-family: initial;
+  width: 50%;
+}

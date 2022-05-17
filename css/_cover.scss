@@ -1,0 +1,44 @@
+.cover {
+    height: 100vh;
+    background-color:#c2def7 ;
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width: 769px) {
+
+  }
+}
+
+.cover-title{
+    font-size: 6.6rem;
+    color: #fff2f2;
+    font-family: initial;
+    text-align: center;
+    text-shadow: -0.1rem 0.3rem #8c94be;
+    
+    
+    h1 {
+        margin: 0 0;
+    }
+    
+    @media (max-width: 769px) {
+    font-size: 3rem;
+    text-shadow: -0.1rem 0.1rem #8c94be;
+    margin-bottom: 2rem;
+  }
+
+}
+
+
+.texts {
+    font-size: 4rem;
+    text-align: center;
+        
+    @media (max-width: 769px) {
+        font-size: 2rem; 
+    }
+}
+
+#cover-discription {
+   
+    
+}

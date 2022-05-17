@@ -1,0 +1,58 @@
+#about_me {
+  margin: 3rem 0 10rem 0;
+}
+  
+  
+.about_inside{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+    @media (max-width: 769px) {
+    display: flex;
+    flex-direction: column;
+    
+      
+    }
+}
+
+.Typewriter__wrapper {
+  font-size: 3rem;
+    font-size: 3rem;
+    color: dimgrey;
+    font-family: initial;
+    
+    @media (max-width: 769px) {
+        font-size: 2rem; 
+    }
+}
+.about_img{
+    
+    height: 30rem;
+}
+.introduction {
+
+  width: 50%;
+  text-align: center;
+  
+  animation: fadeIn ease 3s;
+      @media (max-width: 769px) {
+        width: 80%;
+        margin-top: 2rem;
+      }
+}
+
+
+    
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+

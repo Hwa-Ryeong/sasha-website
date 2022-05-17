@@ -1,0 +1,121 @@
+#languages {
+    width: 50rem;
+    margin: auto;
+    height: 100vh;
+}
+
+.language-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.language-item {
+    border: 0.1rem solid black;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-family: fangsong;
+    border-radius: 50%;
+    line-height: 7rem;
+
+    
+   &.russian {
+    background-image: url(../images/russia-flag-clipart-.jpeg);
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    background-position: 50% 38%;
+   }
+   
+   &.english {
+    background-image: url(../images/american-flag.jpeg);
+    background-position: center;
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: 33% 43%;
+       
+   }
+   
+    &.spanish {
+    background-image: url(../images/mexican-flag.jpeg);
+    background-position: 50.5% 39%;
+    background-repeat: no-repeat;
+    background-size: 25rem;
+       
+   }
+   
+    &.french {
+    background-image: url(../images/large-french-flag.jpeg);
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+   }
+   
+    &.japanese {
+   background-image: url(../images/japan-flag.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    background-position: 49% 30%;
+       
+   }
+   
+    &.german {
+    background-image: url(../images/german-flag.jpeg);
+    background-position: 50% 34%;
+    background-repeat: no-repeat;
+    background-size: 16rem;
+       
+   }
+   
+    &.swedish {
+       background-image: url("../images/sweden-flag.jpeg");
+       background-position: center;
+       background-size: 12rem;
+       
+   }
+   
+    &.czech {
+       background-image: url("../images/czech-republic-flag.jpeg");
+       background-position: 49% 44%;
+       
+   }
+   
+    &.hebrew {
+       background-image: url("../images/israel-flag.jpeg");
+       background-position: 49% 48%;
+       background-size: 18rem;
+       
+   }
+   
+    &.chinese {
+       background-image: url("../images/chinese-flag.jpeg");
+       background-position: 1% 38%;
+       background-size: 11rem;
+       background-repeat: no-repeat
+       
+   }
+   
+      &.korean {
+        background-image: url(../images/south-korea-flag.jpeg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 9rem;
+   }
+       
+}
+
+.spacer {
+  width: 100%;
+  
+  @media (max-width: 769px) {
+      width: 0;
+
+    
+}
+}
